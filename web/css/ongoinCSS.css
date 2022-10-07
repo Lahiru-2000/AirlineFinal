@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul.li1 li{
+    text-decoration: none;
+    display: inline;
+    
+}
+ul.li1{
+    margin-top: 25px;
+}
+ul.li1 li{
+    padding-right: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    
+}
+.navIMG{
+    height: 68px;
+    width: 68px;
+    margin-top: 6.5px;
+    
+    margin-left: 30px;
+}
+.navi{
+    width: 100.8%;
+    height: 80px;
+    background-color:  #0072b4;
+}
+.hom1{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+    /* text-decoration: underline;
+    background-color: black; */
+}
+
+.headAB1{
+    margin-top: 30px;
+    margin-left: 80px;
+    background-color: #0072b4;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    font-size: 30px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.par1{
+    margin-left: 7%;
+    padding-right: 150px;
+    font-size: 20px;
+    font-weight: 400;
+}
+ul.det1{
+    margin-left: 10%;
+    padding-right: 150px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+
+
+.logo1{
+    margin-top: 35%;
+   
+    
+    /* height: 17%;
+    width: 24%; */
+    
+    /* margin-left: 15%; */
+}
+.menf1{
+    margin-top: 20%;
+    /* margin-left: 10%; */
+}
+.menf11{
+    margin-top: 12%;
+    margin-left: 10%;
+}
+.menf12{
+    margin-top: 20%;
+    margin-left: 10%;
+}
+.mefu{
+    margin-top: 30%;
+}
+
+.footer{
+    background-color: #0072b4;
+margin-left: 0.1px;
+height: 400px;
+width: 100%;
+
+}
+ul.lis2 li{
+text-decoration: none;
+display: grid;
+
+}
