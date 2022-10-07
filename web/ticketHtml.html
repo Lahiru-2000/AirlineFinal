@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <form class="frm" action="TicketServlet" method="post">
+        <h1>Add New Ticket</h1>
+            <table>
+                <tr>
+                    <td><br><label class="l1"> Ticket ID : </label></td>
+                    <td><br><input type="text" class="t1" name="id" value=""></td>
+                </tr>
+                <tr>
+                    <td><br><label class="l1"> Date : </label></td>
+                    <td><br><input type="date" name="date" value="2022-10-01">
+                </tr>
+                <tr>
+                    <td><br><label class="l1"> From :  </label></td>
+                    <td><br><input type="text" class="t1" name="from" value=""></td>
+                </tr>
+                <tr>
+                    <td><br><label class="l1"> Destination:  </label></td>
+                    <td><br><input type="tel" class="t1" name="dest" value=""></td>
+                </tr>
+                <tr>
+                    <td><br><label class="l1"> Price :  </label></td>
+                    <td><br><input type="text" class="t1" name="price" value=""></td>
+                </tr>
+            </table>
+              
+                <br><input type="submit" name="sub" class="bttn1" value="Add">
+                <input type="submit" name="sub" class="bttn2" value="Cancel">
+            
+        </form>  
+    </body>
+</html>
+
