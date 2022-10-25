@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bdy{
+    width: 100%;
+}
+ul.li1 li{
+    text-decoration: none;
+    display: inline;
+    
+}
+ul.li1{
+    margin-top: 25px;
+}
+ul.li1 li{
+    padding-right: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    
+}
+.navIMG{
+    height: 68px;
+    width: 68px;
+    margin-top: 6.5px;
+   
+    margin-left: 30px;
+}
+.navi{
+    width: 100.8%;
+    height: 80px;
+    background-color:  #0072b4;
+    margin-right: 1%;
+
+    
+}
+.hom1{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+    
+}
+
+
+
+.homeIMG{
+    width: 100%;
+    padding-left: -20px;
+    justify-items: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 667px;
+    
+}
+.homeTT{
+    margin-top: -35%;
+    font-size: 90px;
+    color: rgb(0, 47, 82);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    justify-items: center;
+    align-items: center;
+   
+}
+.under11{
+    font-size: 20px;
+    color: #003a5c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    justify-items: center;
+    align-items: center;
+}
+.sdg1{
+    width: 100%;
+    margin-top: 12.44%;
+    font-size: 30px;
+    /* margin-top: 16%; */
+    /* color: rgb(55, 184, 55); */
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 12px 12px 12px 12px;
+    margin-left: 12px;
+    
+    
+}
+
+
+
+.homedis{
+    justify-items: center;
+    align-items: center;
+    }
+
+    .read1{
+        padding: 5px 15px 10px 20px;
+        background-color:#054d77;
+        border-radius: 7px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+ 
+    .logo1{
+        margin-top: 35%;
+       
+        
+        /* height: 17%;
+        width: 24%; */
+       
+        /* margin-left: 15%; */
+    }
+    .menf1{
+        margin-top: 20%;
+        /* margin-left: 10%; */
+    }
+    .menf11{
+        margin-top: 12%;
+        margin-left: 10%;
+    }
+    .menf12{
+        margin-top: 20%;
+        margin-left: 10%;
+    }
+    .mefu{
+        margin-top: 30%;
+    }
+
+.footer{
+    background-color: #0072b4;
+    margin-left: 0.1px;
+    height: 400px;
+    width: 100%;
+
+}
+ul.lis2 li{
+    text-decoration: none;
+    display: grid;
+    
+}
+
+
+
+.homeabout1{
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    background-color: #0072b4;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+}
