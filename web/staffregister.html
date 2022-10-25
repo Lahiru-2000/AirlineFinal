@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Document</title>
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('pp12.webp');
+            background-size: cover;
+            /* background-attachment: fixed; */
+        }
+        
+        .my_file {
+            position: absolute;
+            bottom: 0;
+            outline: none;
+            color: transparent;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 4px 120px;
+            cursor: pointer;
+            transition: 0.5s;
+            background: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+        }
+        
+        .my_file::-webkit-file-upload-button {
+            visibility: hidden;
+        }
+        
+        .my_file::before {
+            content: '\f030';
+            font-family: fontAwesome;
+            font-size: 30px;
+            color: #fff;
+            position: relative;
+            left: -40px;
+            display: inline-block;
+            -webkit-user-select: none;
+        }
+        
+        .my_file::after {
+            content: 'Update';
+            font-family: 'arial';
+            font-weight: bold;
+            color: #fff;
+            display: block;
+            position: relative;
+            top: 0px;
+            left: -45px;
+            font-size: 14px;
+        }
+        
+        .my_file:hover {
+            opacity: 1;
+        }
+        
+        .form-control {
+            background: rgba(255, 255, 255, 0.421);
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+    <form action="">
+        <div class="container mb-5 mt-5" style="color: #FFFF; font-family: Arial, Helvetica, sans-serif; background-color: rgba(0, 0, 0, 0.233); box-shadow: 0 0 5px #fff; height:900px; widows: inherit; border-radius: 15px;width: 70%;">
+            <br>
+            <h2 style="justify-content: center; justify-items: center; color: black; font-weight: bold; text-align: center;"> STAFF REGISTRATION</h2>
+            <br><br>
+
+            <div class="form-row" ;>
+
+                <div class="form-group col-md-12">
+                    <label for="FirstName">First Name</label>
+                    <input type="email" class="form-control email1" id="inputEmail4" placeholder="">
+                </div><br>
+
+                <div class="form-group col-md-12">
+                    <label for="Lastname">Last Name</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="">
+                </div>
+
+            </div>
+
+            <div class="form-row">
+
+                <div class="form-group col-md-12">
+                    <label for="DOB">Date Of Birth</label>
+                    <input type="date" class="form-control" id="inputCity" placeholder="DD-MM-YY">
+                </div><br>
+
+                <div class="form-group col-md-12">
+                    <label for="Gender">Gender</label>
+                    <select id="Gender" class="form-control">
+						<option selected>Choose...</option>
+						<option>Male</option>
+						<option>Female</option>
+					</select>
+                </div><br>
+
+                <div class="form-group col-md-12">
+                    <label for="No">Mobile No</label>
+                    <input type="text" class="form-control" id="No" placeholder="">
+                </div>
+
+            </div>
+
+            <div class="form-group">
+                <label for="mail">E-mail</label>
+                <input type="text" class="form-control" id="mail" placeholder="">
+            </div>
+
+
+
+            <div class="form-row">
+
+                <div class="form-group col-md-12">
+                    <label for="Country">Country</label>
+                    <input type="text" class="form-control" id="Country" placeholder="">
+                </div>
+
+                <div class="form-group col-md-12">
+                    <label for="City">City</label>
+                    <select id="City" class="form-control">
+						<option selected>Choose...</option>
+						<option>...</option>
+					</select>
+                </div>
+
+                <div class="form-group col-md-12">
+                    <label for="inputZip">Zip Code</label>
+                    <input type="text" class="form-control" id="inputZip" placeholder="">
+                </div>
+
+            </div>
+
+            <div class="form-group">
+                <div class="form-check">
+
+
+
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="background-color: rgb(5, 5, 61); font-weight: bold; border-radius: 15px;">Continue</button>
+
+            <br>
+
+
+    </form>
+    </div>
+    <!-- JavaScript -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    </form>
+
+</body>
+
+</html>
